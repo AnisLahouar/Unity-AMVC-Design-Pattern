@@ -53,6 +53,12 @@ namespace AMVC.Systems.Loading
             historyCommand.OnComplete += result => _models.history = result;
             _invoker.AddCommand(historyCommand);
             
+            //create rockets command
+            var rocketsCommand = new LoadingCommand<RocketModel>(ApiList.Rockets);
+            rocketsCommand.OnComplete += result => _models.rocket = result;
+            _invoker.AddCommand(rocketsCommand);
+            
+            
             _invoker.OnComplete += LoadingComplete;
             _invoker.StartInvoker();
         }

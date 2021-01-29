@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\SBS\.Rider2018.3\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\SBS\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\SBS\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Unity-AMVC-Design-Pattern.168755110.00" t="ExcludeRecursive" />
-    <e p="D:\Project2020\GitHub\Unity-AMVC-Design-Pattern" t="IncludeRecursive">
+    <e p="C:\Users\Envast\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Envast\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_Unity-AMVC-Design-Pattern.-864035087.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Envast\Documents\GitHub\Unity-AMVC-Design-Pattern" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -237,6 +236,7 @@
           <e p="Models" t="Include">
             <e p="HistoryModel.cs" t="Include" />
             <e p="MissionModel.cs" t="Include" />
+            <e p="RocketModel.cs" t="Include" />
           </e>
           <e p="Systems" t="Include">
             <e p="Loading" t="Include">
@@ -250,6 +250,7 @@
             <e p="Main" t="Include">
               <e p="HistorySystem.cs" t="Include" />
               <e p="MissionsSystem.cs" t="Include" />
+              <e p="RocketsSystem.cs" t="Include" />
             </e>
             <e p="PoolSystem.cs" t="Include" />
           </e>
@@ -272,15 +273,12 @@
           </e>
         </e>
       </e>
-      <e p="Library" t="ExcludeRecursive" />
       <e p="NaughtyAttributes.Core.csproj" t="IncludeRecursive" />
       <e p="NaughtyAttributes.Editor.csproj" t="IncludeRecursive" />
       <e p="NaughtyAttributes.Test.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="Unity-AMVC-Design-Pattern.sln" t="IncludeFlat" />
     </e>
   </component>
